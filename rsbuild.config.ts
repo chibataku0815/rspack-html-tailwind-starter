@@ -1,4 +1,4 @@
-// rsbuild.config.js
+// rsbuild.config.ts
 import { defineConfig } from '@rsbuild/core';
 
 export default defineConfig({
@@ -15,5 +15,10 @@ export default defineConfig({
   },
   output: {
     assetPrefix: '/',
-  }
+  },
+  tools: {
+    postcss: {
+
+    },
+  },
 });

@@ -16,7 +16,10 @@
     /* type checking */
     "strict": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+
+    /* 追加の型定義 */
+    "types": ["node", "@rsbuild/core"]
   },
-  "include": ["src"]
+  "include": ["src", "rsbuild.config.ts"]
 }
